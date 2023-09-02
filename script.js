@@ -76,8 +76,3 @@ wisley_js.addEventListener("click", () => {
   url = "https://www.linkedin.com/in/wisley-ribeiro-lopes/";
   link();
 })
-
-let puxa = "";
-function pega(){
-  let obj = document.querySelector(puxa);
-}
