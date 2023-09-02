@@ -72,6 +72,11 @@ nav.sticky .navbar .logo a{
     10px 10px 10px #b6bac3;
 }
 
+nav.sticky .navbar .media-icons img {
+  transform: translateX(50px);
+  transition: all 200ms;
+}
+
 nav .navbar .menu{
   display: flex;
   position: relative;
@@ -94,10 +99,12 @@ nav .navbar .menu li{
   color: #4070f4;
 }
 
-.navbar .media-icons a{
-  color: #0e2431;
-  font-size: 18px;
+.navbar .media-icons img{
+  transform: translateX(-50px);
+  width: 35px;
+  cursor: pointer;
   margin: 0 6px;
+  transition: all 200ms;
 }
 
 nav .menu-btn,
@@ -489,9 +496,7 @@ section .button button:hover{
   nav.sticky .menu a:hover{
     color: #4070f4;
   }
-  nav .navbar .media-icons{
-    display: none;
-  }
+
   nav .menu-btn,
   .navbar .menu .cancel-btn{
     display: block;
