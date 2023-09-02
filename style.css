@@ -376,6 +376,7 @@ section .button button:hover{
 }
 
 .services .boxes .box:hover{
+  transition: all 0.4s ease;
   box-shadow:
     inset 2px 2px 5px #b6bac3,
     inset -2px -2px 5px #fcfbff,
@@ -383,27 +384,13 @@ section .button button:hover{
     -2px -2px 5px #b6bac3;
 }
 
-.services .boxes .box .icon{
-  height: 50px;
-  width: 50px;
-  background: #4070f4;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 50px;
-  font-size: 18px;
-  color: #fff;
-  margin: 0 auto 10px auto;
-  transition: all 0.4s ease;
-}
-
-.boxes .box:hover .icon{
-  transition: all 0.4s ease;
-  display: none;
+.services .content .topic {
+  color: #0E2431;
 }
 
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
-  color: #0E2431;
+  color: #4070f4;
   transition: all 0.4s ease;
 }
 
