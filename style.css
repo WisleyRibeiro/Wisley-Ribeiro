@@ -392,7 +392,12 @@ section .button button:hover{
 }
 
 .services .content .topic {
+  padding: 10px;
   color: #0E2431;
+}
+
+.services p{
+  text-align: justify;
 }
 
 .services .boxes .box:hover .topic,
