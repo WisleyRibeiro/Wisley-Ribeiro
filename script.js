@@ -46,6 +46,7 @@ const btn_cv = document.querySelector("#CV");
 const btn_contact = document.querySelector("#contact-buttom");
 const instagram_icon = document.querySelector("#instagram");
 const wisley_js = document.querySelector("#wisley-js");
+const mr_robot = document.querySelector("#submit");
 let url = "";
 
 function link(){
@@ -74,5 +75,10 @@ instagram_icon.addEventListener("click", () => {
 
 wisley_js.addEventListener("click", () => {
   url = "https://www.linkedin.com/in/wisley-ribeiro-lopes/";
+  link();
+})
+
+mr_robot.addEventListener("click", () => {
+  url = "https://wisleyribeiro.github.io/bash-portfolio-terminal/"
   link();
 })

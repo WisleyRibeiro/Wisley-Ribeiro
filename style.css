@@ -439,6 +439,11 @@ section .button button:hover{
   display: none;
 }
 
+#submit {
+  font-size: 1.2em;
+  color: green;
+}
+
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
